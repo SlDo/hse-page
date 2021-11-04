@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://sldo.github.io/hse-page/static/css/main.53ac6c0f.chunk.css",
-    "main.js": "https://sldo.github.io/hse-page/static/js/main.2542d685.chunk.js",
-    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.2542d685.chunk.js.map",
-    "runtime-main.js": "https://sldo.github.io/hse-page/static/js/runtime-main.4125d4cf.js",
-    "runtime-main.js.map": "https://sldo.github.io/hse-page/static/js/runtime-main.4125d4cf.js.map",
+    "main.css": "https://sldo.github.io/hse-page/static/css/main.5824d3ce.chunk.css",
+    "main.js": "https://sldo.github.io/hse-page/static/js/main.eb157562.chunk.js",
+    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.eb157562.chunk.js.map",
+    "runtime-main.js": "https://sldo.github.io/hse-page/static/js/runtime-main.e6a810bc.js",
+    "runtime-main.js.map": "https://sldo.github.io/hse-page/static/js/runtime-main.e6a810bc.js.map",
     "static/css/2.88e011f4.chunk.css": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css",
-    "static/js/2.19831407.chunk.js": "https://sldo.github.io/hse-page/static/js/2.19831407.chunk.js",
-    "static/js/2.19831407.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.19831407.chunk.js.map",
-    "static/js/3.869d3b31.chunk.js": "https://sldo.github.io/hse-page/static/js/3.869d3b31.chunk.js",
-    "static/js/3.869d3b31.chunk.js.map": "https://sldo.github.io/hse-page/static/js/3.869d3b31.chunk.js.map",
-    "static/js/4.11e57dd3.chunk.js": "https://sldo.github.io/hse-page/static/js/4.11e57dd3.chunk.js",
-    "static/js/4.11e57dd3.chunk.js.map": "https://sldo.github.io/hse-page/static/js/4.11e57dd3.chunk.js.map",
+    "static/js/2.7bcf8cd2.chunk.js": "https://sldo.github.io/hse-page/static/js/2.7bcf8cd2.chunk.js",
+    "static/js/2.7bcf8cd2.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.7bcf8cd2.chunk.js.map",
+    "static/js/3.1a7dcde0.chunk.js": "https://sldo.github.io/hse-page/static/js/3.1a7dcde0.chunk.js",
+    "static/js/3.1a7dcde0.chunk.js.map": "https://sldo.github.io/hse-page/static/js/3.1a7dcde0.chunk.js.map",
+    "static/js/4.a3a3ce0b.chunk.js": "https://sldo.github.io/hse-page/static/js/4.a3a3ce0b.chunk.js",
+    "static/js/4.a3a3ce0b.chunk.js.map": "https://sldo.github.io/hse-page/static/js/4.a3a3ce0b.chunk.js.map",
     "index.html": "https://sldo.github.io/hse-page/index.html",
     "static/css/2.88e011f4.chunk.css.map": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css.map",
-    "static/css/main.53ac6c0f.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.53ac6c0f.chunk.css.map",
-    "static/js/2.19831407.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.19831407.chunk.js.LICENSE.txt",
-    "static/js/3.869d3b31.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/3.869d3b31.chunk.js.LICENSE.txt",
+    "static/css/main.5824d3ce.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.5824d3ce.chunk.css.map",
+    "static/js/2.7bcf8cd2.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.7bcf8cd2.chunk.js.LICENSE.txt",
+    "static/js/3.1a7dcde0.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/3.1a7dcde0.chunk.js.LICENSE.txt",
     "static/media/fonts.scss": "https://sldo.github.io/hse-page/static/media/ProximaNova-Semibold.6433d195.woff",
     "static/media/a.9168db84.png": "https://sldo.github.io/hse-page/static/media/a.9168db84.png",
     "static/media/about.33645d34.webp": "https://sldo.github.io/hse-page/static/media/about.33645d34.webp",
@@ -51,10 +51,10 @@
     "static/media/yandex.447c0c96.svg": "https://sldo.github.io/hse-page/static/media/yandex.447c0c96.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4125d4cf.js",
+    "static/js/runtime-main.e6a810bc.js",
     "static/css/2.88e011f4.chunk.css",
-    "static/js/2.19831407.chunk.js",
-    "static/css/main.53ac6c0f.chunk.css",
-    "static/js/main.2542d685.chunk.js"
+    "static/js/2.7bcf8cd2.chunk.js",
+    "static/css/main.5824d3ce.chunk.css",
+    "static/js/main.eb157562.chunk.js"
   ]
 }
