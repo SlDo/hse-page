@@ -1,4 +1,4 @@
-const breadcrumbBlock = document.querySelector('ul .pk-breadcrumb__list');
+const breadcrumbBlock = document.querySelector('ul.pk-breadcrumb__list');
 
 if (breadcrumbBlock) {
   const breadcrumb = document.createElement('li');

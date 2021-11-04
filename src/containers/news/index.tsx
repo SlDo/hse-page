@@ -7,9 +7,10 @@ import { News } from '../../utils/API/routes/news';
 
 interface NewsProps {
   className?: string
+  count?: number | undefined
 }
 
-export const NewsContainer = ({ className }: NewsProps): JSX.Element => {
+export const NewsContainer = ({ className, count }: NewsProps): JSX.Element => {
   const [news, setNews] = useState<ArticleProps[]>([]);
 
   useEffect(() => {
@@ -17,10 +18,13 @@ export const NewsContainer = ({ className }: NewsProps): JSX.Element => {
       const { data: resData } = res || {};
       const { data } = resData || [];
 
-      const newsResponse = data?.map((news) => ({
-        image: `https://www.hse.ru${news.img}`, href: news.href, label: news.extra.date.formatted, title: news.title, description: news.annotation, tags: news.meta?.tags?.map((tag) => ({ tag: tag.title, href: tag.href })) ?? [],
-      })).slice(0, 3);
+      const newsData = data?.map((news) => ({
+        image: news.img == null ? news.img : `https://www.hse.ru${news.img}`, href: news.href, label: news.extra.date.formatted, title: news.title, description: news.annotation, tags: news.meta?.tags?.map((tag) => ({ tag: tag.title, href: tag.href })) ?? [],
+      }));
 
+      const newsResponse = count != null ? newsData.slice(0, count) : newsData;
+
+      // @ts-ignore
       setNews(newsResponse ?? []);
     });
   }, []);
@@ -32,4 +36,5 @@ export const NewsContainer = ({ className }: NewsProps): JSX.Element => {
 
 NewsContainer.defaultProps = {
   className: undefined,
+  count: undefined,
 };

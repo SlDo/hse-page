@@ -1,7 +1,9 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import { breakpointTabletSmall, colorBrand1 } from '@hse-design/tokens';
 import cs from 'classnames';
 
+import { Link, LinkVariant } from '@hse-design/react';
 import { AppBanner } from '../../components/appBanner';
 
 import { ReactComponent as CalendarIcon } from '../../images/icons/calendar.svg';
@@ -47,8 +49,13 @@ import style from './style.module.scss';
 
 export const HomePage = (): JSX.Element => {
   const size = useWindowSize();
+  const history = useHistory();
 
   const adaptiveSectionsClasses = { header: size.width <= parseInt(breakpointTabletSmall, 10) ? 'gap-v' : undefined };
+
+  const blogRedirect = (): void => {
+    history.push('/news');
+  };
 
   return (
     <main className="mainRoot">
@@ -109,19 +116,19 @@ export const HomePage = (): JSX.Element => {
       </Section>
       <Section
         title="Блог"
-        // label={(
-        //   <Link
-        //     variant={LinkVariant.primary}
-        //     href="https://www.hse.ru/"
-        //     target="_blank"
-        //   >
-        //     Смотреть все
-        //   </Link>
-        // )}
+        label={(
+          // eslint-disable-next-line jsx-a11y/anchor-is-valid
+          <Link
+            variant={LinkVariant.primary}
+            onClick={blogRedirect}
+          >
+            Смотреть все
+          </Link>
+        )}
         classNames={adaptiveSectionsClasses}
         className={cs('sectionSpace', { 'gap-v': size.width >= parseInt(breakpointTabletSmall, 10) })}
       >
-        <NewsContainer className={size.width <= parseInt(breakpointTabletSmall, 10) ? 'gap-v' : undefined} />
+        <NewsContainer count={3} className={size.width <= parseInt(breakpointTabletSmall, 10) ? 'gap-v' : undefined} />
       </Section>
       <Section className="sectionSpace gap-v">
         <TeamBanner />

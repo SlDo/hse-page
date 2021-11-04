@@ -3,7 +3,7 @@
 @import "./src/styles/mixins/adaptiveBlock";
 
 .articles {
-  @include adaptiveBlocks(300px, $spacing-medium);
+  @include adaptiveBlocks(300px, $spacing-large-x, $spacing-medium);
 }
 
 @media screen and (max-width: $breakpoint-tablet-small) {

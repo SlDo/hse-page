@@ -70,4 +70,8 @@ a:not([class]), :link, :visited, .link {
   .content__inner > *, .builder_content > *, .posts--builder .post-title, .grid .header-caption, .grid .teasers, .grid .head-news, .builder-section--fullwidth .builder-section__title, .header-board--promo {
     padding: 12px 0 24px;
   }
+
+  span.control.is-mobile.control_menu.js-control_menu_open {
+    display: none;
+  }
 }

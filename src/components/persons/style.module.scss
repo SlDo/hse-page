@@ -3,7 +3,7 @@
 @import "~@hse-design/tokens/lib/scss/breakpoints";
 
 .persons {
-  @include adaptiveBlocks(250px, $spacing-large);
+  @include adaptiveBlocks(250px, $spacing-large, $spacing-large);
 }
 
 @media screen and (max-width: $breakpoint-tablet-small) {

@@ -3,7 +3,7 @@
 @import "./src/styles/mixins/adaptiveBlock";
 
 .cardsBlock {
-  @include adaptiveBlocks(280px, $spacing-medium);
+  @include adaptiveBlocks(280px, $spacing-medium, $spacing-medium);
 }
 
 @media screen and (max-width: $breakpoint-tablet-small) {

@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 import { AboutPage, HomePage } from '../pages';
+import { NewsPage } from '../pages/news';
 
 interface NavigationType {
   path: string
@@ -11,6 +12,9 @@ interface NavigationType {
 export const navigation: NavigationType[] = [
   {
     path: '/about', name: 'О нас', component: AboutPage, props: {},
+  },
+  {
+    path: '/news', name: 'Новости', component: NewsPage, props: {},
   },
   {
     path: '/', name: 'Главная', component: HomePage, props: { exact: true },
