@@ -1,0 +1,81 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.appBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 260px;
+  padding: $spacing-medium;
+  width: 100%;
+  overflow: hidden;
+
+  .appBannerBody {
+    margin-right: 150px;
+    align-self: center;
+    max-width: 100%;
+  }
+
+  .appBannerButtons {
+    display: flex;
+    flex-flow: row wrap;
+    margin: -($spacing-small-x / 2);
+
+    & > * {
+      margin: ($spacing-small-x / 2);
+    }
+  }
+
+  .appBannerTitle {
+    white-space: pre-line;
+    line-height: 32px;
+  }
+
+  .appBannerLabel {
+    display: inline-block;
+    margin: 20px 0;
+    line-height: 20px;
+    color: $color-gray-dusk-1;
+  }
+
+  .appBannerImageContainer {
+    width: 235px;
+    position: relative;
+
+    .appBannerImageCircle {
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, 40%);
+      width: 120%;
+    }
+
+    .appBannerImage {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .appBanner {
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+    .appBannerBody {
+      margin-right: 0;
+    }
+
+    .appBannerImageContainer {
+      height: 250px;
+
+      .appBannerImage {
+        top: 10%;
+      }
+    }
+  }
+}

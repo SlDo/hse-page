@@ -1,0 +1,30 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+@import "./src/styles/mixins/adaptiveBlock";
+
+.cardsBlock {
+  @include adaptiveBlocks(280px, $spacing-medium);
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+ .cardsBlock {
+   width: 100%;
+   overflow-y: auto;
+   display: flex;
+   flex-direction: row;
+   gap: 0;
+
+   & > *:not(:first-child) {
+     margin-left: $spacing-medium;
+   }
+
+   &::-webkit-scrollbar {
+     width: 0;
+   }
+
+   & > div {
+     flex: none;
+     max-width: 265px;
+   }
+  }
+}

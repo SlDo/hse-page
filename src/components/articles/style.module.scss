@@ -1,0 +1,30 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+@import "./src/styles/mixins/adaptiveBlock";
+
+.articles {
+  @include adaptiveBlocks(300px, $spacing-medium);
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .articles {
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+
+    & > *:not(:first-child) {
+      margin-left: $spacing-medium;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    & > article {
+      flex: none;
+      max-width: 250px;
+    }
+  }
+}

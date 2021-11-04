@@ -1,0 +1,15 @@
+@import "./src/styles/variables";
+
+.tags {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -($spacing-small-3x / 2);
+
+  .tagLink {
+    text-decoration: none;
+  }
+
+  & > * {
+    margin: $spacing-small-3x / 2;
+  }
+}

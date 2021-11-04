@@ -1,0 +1,13 @@
+@import "./src/styles/variables";
+@import "./src/styles/mixins/adaptiveBlock";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.persons {
+  @include adaptiveBlocks(250px, $spacing-large);
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .persons {
+    grid-template-columns: 1fr;
+  }
+}

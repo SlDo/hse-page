@@ -1,0 +1,53 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.sdkBanner {
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 3fr;
+
+  .image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/hse-promo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .body {
+    padding: $spacing-large-x $spacing-large $spacing-large-x $spacing-medium-x;
+
+    .description {
+      display: inline-block;
+      color: $color-gray-dusk-1;
+      margin-top: $spacing-small-x;
+      margin-bottom: $spacing-small;
+    }
+
+    .buttons {
+      display: flex;
+      flex-flow: row wrap;
+      margin: -($spacing-small-x / 2);
+
+      & > * {
+        margin: $spacing-small-x / 2;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .sdkBanner {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+    .body {
+      padding: $spacing-large $spacing-medium-x;
+    }
+
+    .image {
+      width: 100%;
+    }
+  }
+};

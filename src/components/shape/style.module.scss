@@ -1,0 +1,7 @@
+@import "./src/styles/variables";
+
+.shape {
+  padding: $spacing-small;
+  border: 1px solid $color-gray-morn-1;
+  border-radius: $radius-large;
+}

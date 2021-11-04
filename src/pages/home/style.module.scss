@@ -1,0 +1,14 @@
+@import "./src/styles/variables";
+
+.forwardCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: $spacing-small;
+  gap: $spacing-small;
+}
+
+@media screen and (max-width: $breakpoint_tablet-large) {
+  .forwardCards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,20 @@
+@import "./src/styles/variables";
+
+.cardLinks {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -($spacing-small / 2);
+
+  & > * {
+    margin: $spacing-small / 2;
+  }
+
+  .link {
+    color: $color-gray-dusk-1 !important;
+    transition: .5s;
+
+    &:hover {
+      color: $color-gray-dusk-3 !important;
+    }
+  }
+}

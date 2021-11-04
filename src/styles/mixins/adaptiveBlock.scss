@@ -1,0 +1,5 @@
+@mixin adaptiveBlocks($minWidth, $gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($minWidth, 1fr));
+  gap: $gap;
+}

@@ -1,0 +1,32 @@
+@import "./src/styles/variables";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+
+  .content {
+    flex: 1 0 auto;
+
+    .icon {
+      $size: 42px;
+
+      width: $size;
+      height: $size;
+      border-radius: $radius-large;
+      margin-bottom: $spacing-medium;
+    }
+
+    .title {
+      margin-bottom: $spacing-small-2x;
+    }
+
+    .description {
+      color: $color-gray-dusk-1;
+    }
+  }
+
+  .footer {
+    margin-top: $spacing-large;
+  }
+}

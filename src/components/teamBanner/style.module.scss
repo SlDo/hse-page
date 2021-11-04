@@ -1,0 +1,59 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.teamBanner {
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  min-height: 360px;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas: 'content image';
+  gap: $spacing-medium;
+  padding: 0 $spacing-medium-x;
+
+  .body {
+    grid-area: content;
+
+    .description {
+      color: $color-gray-dusk-1;
+      margin: $spacing-small-3x 0 $spacing-medium 0;
+    }
+
+    .buttons {
+      display: flex;
+      flex-flow: row wrap;
+      margin: -($spacing-small-x / 2);
+
+      & > * {
+        margin: $spacing-small-x / 2;
+      }
+    }
+  }
+
+  .teamImage {
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/team.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .teamBanner {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 'image' 'content';
+    padding: 0;
+
+    .body {
+      padding: $spacing-small $spacing-small-x;
+    }
+
+    .teamImage {
+      background-image: url("../../images/team-mob.webp");
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "./src/styles/variables";
+
+.infoBlock {
+  padding: $spacing-small;
+
+  .title {
+    font-size: 1.25em;
+    margin: $spacing-small-x 0;
+  }
+
+  .description {
+    color: $color-gray-dusk-1;
+  }
+}

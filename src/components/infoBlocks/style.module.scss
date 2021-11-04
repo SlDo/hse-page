@@ -1,0 +1,20 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.infoBlocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $spacing-medium;
+}
+
+@media screen and (max-width: $breakpoint-desktop-small) {
+  .infoBlocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .infoBlocks {
+    grid-template-columns: 1fr;
+  }
+}

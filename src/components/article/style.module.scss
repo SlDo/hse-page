@@ -1,0 +1,41 @@
+@import "./src/styles/variables";
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+.article {
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    width: 100%;
+    height: 230px;
+    border-radius: $radius-large;
+    object-fit: cover;
+    margin-bottom: $spacing-small-x;
+  }
+
+  .label {
+    color: $color-gray-dusk-1;
+    margin-bottom: $spacing-small-3x;
+  }
+
+  .titleLink {
+    border-bottom: none;
+    text-align: start;
+
+    .title {
+      margin-bottom: $spacing-small-3x;
+    }
+  }
+
+  .labels {
+    margin-top: $spacing-small;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile-large) {
+  .article {
+    .image {
+      height: 130px;
+    }
+  }
+}

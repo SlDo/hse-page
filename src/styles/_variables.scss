@@ -1,0 +1,12 @@
+@import '~@hse-design/core/src/base.scss';
+@import "~@hse-design/tokens/lib/scss/breakpoints";
+
+:root {
+  --section-padding-horizontal: 121px;
+}
+
+@media screen and (max-width: $breakpoint-tablet-small) {
+  :root {
+    --section-padding-horizontal: 24px;
+  }
+}

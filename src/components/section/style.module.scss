@@ -1,0 +1,8 @@
+@import "./src/styles/variables";
+
+.header {
+  display: flex;
+  margin-bottom: $spacing-medium;
+  align-items: center;
+  justify-content: space-between;
+}

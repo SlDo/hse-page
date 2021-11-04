@@ -1,0 +1,13 @@
+@import "./src/styles/variables";
+
+.partners {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: -($spacing-large-2x / 2);
+  width: 100%;
+
+  & > * {
+    margin: ($spacing-large-2x / 2);
+  }
+}

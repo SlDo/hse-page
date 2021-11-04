@@ -1,0 +1,13 @@
+@import "./src/styles/variables";
+
+.join {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+
+  .linkText {
+    color: $color-brand;
+    margin-left: $spacing-small-x;
+  }
+}
