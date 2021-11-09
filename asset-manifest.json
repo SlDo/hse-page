@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://sldo.github.io/hse-page/static/css/main.18583b0c.chunk.css",
-    "main.js": "https://sldo.github.io/hse-page/static/js/main.e3d64d54.chunk.js",
-    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.e3d64d54.chunk.js.map",
-    "runtime-main.js": "https://sldo.github.io/hse-page/static/js/runtime-main.fd4d7c59.js",
-    "runtime-main.js.map": "https://sldo.github.io/hse-page/static/js/runtime-main.fd4d7c59.js.map",
+    "main.css": "https://sldo.github.io/hse-page/static/css/main.d3735076.chunk.css",
+    "main.js": "https://sldo.github.io/hse-page/static/js/main.8504bf51.chunk.js",
+    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.8504bf51.chunk.js.map",
+    "runtime-main.js": "https://sldo.github.io/hse-page/static/js/runtime-main.58b4a954.js",
+    "runtime-main.js.map": "https://sldo.github.io/hse-page/static/js/runtime-main.58b4a954.js.map",
     "static/css/2.88e011f4.chunk.css": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css",
-    "static/js/2.4a46bbad.chunk.js": "https://sldo.github.io/hse-page/static/js/2.4a46bbad.chunk.js",
-    "static/js/2.4a46bbad.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.4a46bbad.chunk.js.map",
-    "static/js/3.fd5e53ad.chunk.js": "https://sldo.github.io/hse-page/static/js/3.fd5e53ad.chunk.js",
-    "static/js/3.fd5e53ad.chunk.js.map": "https://sldo.github.io/hse-page/static/js/3.fd5e53ad.chunk.js.map",
-    "static/js/4.1255ff86.chunk.js": "https://sldo.github.io/hse-page/static/js/4.1255ff86.chunk.js",
-    "static/js/4.1255ff86.chunk.js.map": "https://sldo.github.io/hse-page/static/js/4.1255ff86.chunk.js.map",
+    "static/js/2.ca3eafe0.chunk.js": "https://sldo.github.io/hse-page/static/js/2.ca3eafe0.chunk.js",
+    "static/js/2.ca3eafe0.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.ca3eafe0.chunk.js.map",
+    "static/js/3.dfd58ea0.chunk.js": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js",
+    "static/js/3.dfd58ea0.chunk.js.map": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js.map",
+    "static/js/4.1cba4d20.chunk.js": "https://sldo.github.io/hse-page/static/js/4.1cba4d20.chunk.js",
+    "static/js/4.1cba4d20.chunk.js.map": "https://sldo.github.io/hse-page/static/js/4.1cba4d20.chunk.js.map",
     "index.html": "https://sldo.github.io/hse-page/index.html",
     "static/css/2.88e011f4.chunk.css.map": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css.map",
-    "static/css/main.18583b0c.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.18583b0c.chunk.css.map",
-    "static/js/2.4a46bbad.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.4a46bbad.chunk.js.LICENSE.txt",
-    "static/js/3.fd5e53ad.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/3.fd5e53ad.chunk.js.LICENSE.txt",
+    "static/css/main.d3735076.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.d3735076.chunk.css.map",
+    "static/js/2.ca3eafe0.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.ca3eafe0.chunk.js.LICENSE.txt",
+    "static/js/3.dfd58ea0.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js.LICENSE.txt",
     "static/media/fonts.scss": "https://sldo.github.io/hse-page/static/media/ProximaNova-Semibold.6433d195.woff",
     "static/media/a.9168db84.png": "https://sldo.github.io/hse-page/static/media/a.9168db84.png",
     "static/media/about.33645d34.webp": "https://sldo.github.io/hse-page/static/media/about.33645d34.webp",
@@ -51,10 +51,10 @@
     "static/media/yandex.447c0c96.svg": "https://sldo.github.io/hse-page/static/media/yandex.447c0c96.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd4d7c59.js",
+    "static/js/runtime-main.58b4a954.js",
     "static/css/2.88e011f4.chunk.css",
-    "static/js/2.4a46bbad.chunk.js",
-    "static/css/main.18583b0c.chunk.css",
-    "static/js/main.e3d64d54.chunk.js"
+    "static/js/2.ca3eafe0.chunk.js",
+    "static/css/main.d3735076.chunk.css",
+    "static/js/main.8504bf51.chunk.js"
   ]
 }
