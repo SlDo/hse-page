@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://sldo.github.io/hse-page/static/css/main.4d5052e1.chunk.css",
-    "main.js": "https://sldo.github.io/hse-page/static/js/main.9c66a8bd.chunk.js",
-    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.9c66a8bd.chunk.js.map",
+    "main.css": "https://sldo.github.io/hse-page/static/css/main.f39c21d0.chunk.css",
+    "main.js": "https://sldo.github.io/hse-page/static/js/main.fd65d91e.chunk.js",
+    "main.js.map": "https://sldo.github.io/hse-page/static/js/main.fd65d91e.chunk.js.map",
     "runtime-main.js": "https://sldo.github.io/hse-page/static/js/runtime-main.58b4a954.js",
     "runtime-main.js.map": "https://sldo.github.io/hse-page/static/js/runtime-main.58b4a954.js.map",
     "static/css/2.88e011f4.chunk.css": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css",
-    "static/js/2.d66582e2.chunk.js": "https://sldo.github.io/hse-page/static/js/2.d66582e2.chunk.js",
-    "static/js/2.d66582e2.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.d66582e2.chunk.js.map",
+    "static/js/2.27533d76.chunk.js": "https://sldo.github.io/hse-page/static/js/2.27533d76.chunk.js",
+    "static/js/2.27533d76.chunk.js.map": "https://sldo.github.io/hse-page/static/js/2.27533d76.chunk.js.map",
     "static/js/3.dfd58ea0.chunk.js": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js",
     "static/js/3.dfd58ea0.chunk.js.map": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js.map",
     "static/js/4.1cba4d20.chunk.js": "https://sldo.github.io/hse-page/static/js/4.1cba4d20.chunk.js",
     "static/js/4.1cba4d20.chunk.js.map": "https://sldo.github.io/hse-page/static/js/4.1cba4d20.chunk.js.map",
     "index.html": "https://sldo.github.io/hse-page/index.html",
     "static/css/2.88e011f4.chunk.css.map": "https://sldo.github.io/hse-page/static/css/2.88e011f4.chunk.css.map",
-    "static/css/main.4d5052e1.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.4d5052e1.chunk.css.map",
-    "static/js/2.d66582e2.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.d66582e2.chunk.js.LICENSE.txt",
+    "static/css/main.f39c21d0.chunk.css.map": "https://sldo.github.io/hse-page/static/css/main.f39c21d0.chunk.css.map",
+    "static/js/2.27533d76.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/2.27533d76.chunk.js.LICENSE.txt",
     "static/js/3.dfd58ea0.chunk.js.LICENSE.txt": "https://sldo.github.io/hse-page/static/js/3.dfd58ea0.chunk.js.LICENSE.txt",
     "static/media/fonts.scss": "https://sldo.github.io/hse-page/static/media/ProximaNova-Semibold.6433d195.woff",
     "static/media/a.9168db84.png": "https://sldo.github.io/hse-page/static/media/a.9168db84.png",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.58b4a954.js",
     "static/css/2.88e011f4.chunk.css",
-    "static/js/2.d66582e2.chunk.js",
-    "static/css/main.4d5052e1.chunk.css",
-    "static/js/main.9c66a8bd.chunk.js"
+    "static/js/2.27533d76.chunk.js",
+    "static/css/main.f39c21d0.chunk.css",
+    "static/js/main.fd65d91e.chunk.js"
   ]
 }
