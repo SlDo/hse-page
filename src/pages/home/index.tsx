@@ -141,7 +141,7 @@ export const HomePage = (): JSX.Element => {
               <ForwardFooter>
                 {/* <Button variant={ButtonVariant.primary}>Центр поддержки</Button> */}
                 {/* <Space horizontal size={Size.small} /> */}
-                <CardLinks links={[{ icon: VKLogo, href: 'https://vk.me/hseapp', color: colorBrand1 }, { icon: FBLogo, href: 'https://fb.me/hseapp', color: colorBrand1 }]} />
+                <CardLinks links={[{ icon: VKLogo, href: 'https://vk.me/hseapp', color: colorBrand1 }]} />
               </ForwardFooter>
             )}
           />
@@ -151,7 +151,7 @@ export const HomePage = (): JSX.Element => {
             image={SocialMedia}
             footer={(
               <ForwardFooter>
-                <CardLinks links={[{ icon: VKLogo, href: 'https://vk.com/hseapp', color: colorBrand1 }, { icon: FBLogo, href: 'https://www.facebook.com/hseapp', color: colorBrand1 }, { icon: TelegramLogo, href: 'https://t.me/nruhseapp', color: colorBrand1 }]} />
+                <CardLinks links={[{ icon: VKLogo, href: 'https://vk.com/hseapp', color: colorBrand1 }, { icon: TelegramLogo, href: 'https://t.me/nruhseapp', color: colorBrand1 }]} />
               </ForwardFooter>
             )}
           />
