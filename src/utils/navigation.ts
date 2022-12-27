@@ -1,4 +1,3 @@
-import { ReactElement } from 'react';
 import { AboutPage, HomePage } from '../pages';
 import { NewsPage } from '../pages/news';
 
