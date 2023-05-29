@@ -14,7 +14,7 @@ export const PersonCard = ({
   image, name, label, href,
 }: PersonCardProps): JSX.Element => (
   <Person image={image} href={href}>
-    <Link variant={LinkVariant.primary} href={href}>
+    <Link variant={LinkVariant.primary} className="hse-Table__td_align_left" href={href}>
       <Paragraph className="hse-Text_caption-large-bold">{name}</Paragraph>
     </Link>
     <Paragraph className={cs('hse-Text_caption-x-small-bold', style.label)}>{label}</Paragraph>
